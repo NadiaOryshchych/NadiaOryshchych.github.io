@@ -1,0 +1,68 @@
+body {
+  outline: 3px solid #556b2f;
+  padding: 4px;
+}
+.book {
+  padding: 20px;
+  outline: 3px solid #ffffff;
+  border: 2px solid #6b8e23;
+}
+img {
+  float: right;
+  width: 200px;
+}
+h2, h3, .contents-name, .poem {
+  text-align: center;
+}
+.name {
+  text-transform: uppercase;
+}
+.blockquote p {
+  padding-right: 220px;
+  text-align: right;
+}
+.quote, .quote-who, .prof {
+  font-style: italic;
+}
+.quote, .strong-text {
+  font-weight: bold;
+}
+.quote-who {
+  text-decoration: underline;
+}
+.contents-list {
+  width: 280px;
+  padding: 0 20px;
+}
+ol {
+  padding: 0;
+}
+li {
+  list-style-position: inside;
+}
+.chapters {
+  list-style: none;
+}
+ul > li {
+  list-style-type: disc;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blue;
+}
+a:visited {
+  color: gray;
+}
+p {
+  text-indent: 1.5em;
+  text-align: justify;
+}
+.delete-text {
+  text-decoration: line-through;
+}
+.list, .poem {
+  text-indent: inherit;
+}

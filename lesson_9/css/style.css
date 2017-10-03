@@ -1,0 +1,65 @@
+body{
+  font-family: Tahoma, sans-serif;
+  color: #333;  
+}
+.container {
+	padding: 70px 0;
+}
+.container, .form-header, .section-header {
+	text-align: center;
+}
+.row {
+	margin: auto 7%;
+	padding: 0;
+}
+.header {
+	margin: 20px auto 80px;
+	font-size: 24px;
+	line-height: 1.5;
+}
+.header span {
+	display: block;
+}
+.header strong, .section-header {
+	text-transform: uppercase;
+}
+.video {
+	margin-bottom: 30px;
+}
+.form {
+	border: 5px solid #2727d9;
+	padding: 30px 20px;
+}
+.form-header, .section-header {
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 38px;
+}
+.form input {
+	margin-bottom: 12px;
+}
+.form-btn {
+	padding: 20px 0;
+	background-color: #2727d9;
+}
+.instruction-btn {
+	width: 300px;
+	margin: 30px auto;
+}
+.section-header {
+	margin: 70px auto;
+}
+.preference {
+	margin: 80px auto;
+}
+.preference-box {
+	height: 170px;
+}
+.preference p {
+	margin-top: 20px;
+	font-size: 16px;
+}
+.clients img {
+	margin-bottom: 33px;
+	width: 200px;
+}

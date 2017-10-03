@@ -1,0 +1,15 @@
+.container {
+  padding: 130px 0 120px;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  margin-bottom: 100px;
+  font-style: 36px;
+  text-transform: uppercase;
+}
+img {
+  margin: 45px 0 30px;
+}
+p {
+  font-size: 18px;
+}
