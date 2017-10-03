@@ -25,5 +25,5 @@
 
 Модуль 4. [Урок № 11](https://drive.google.com/open?id=0B73LszDpBxWRMzRSWk13TGhZcVk "пройденный курс по emmet + создание сниппетов") - Сниппеты
 
-Модуль 4. [Урок № 12](NadiaOryshchych.github.io) - Хостинг от GitHub
+Модуль 4. [Урок № 12](https://nadiaoryshchych.github.io/) - Хостинг от GitHub
 
