@@ -1,0 +1,72 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.form-page {
+  height: 570px;
+  width: 570px;
+  background: url(../img/bg.png) no-repeat;
+  border: 1px solid transparent;
+}
+.form-block {
+  position: relative;
+  margin: 99px auto;
+  padding: 49px 28px 0;
+  width: 319px;
+  height: 370px;
+  background-color: #fbfdfd;
+  border: 1px solid #cfdede;
+}
+.form-block .form-header {
+  position: absolute;
+  left: 29px;
+  top: -4px;
+  padding: 6px 0;
+  height: 25px;
+  width: 151px;
+  font: bold 12px Arial;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #01b3b3;
+  box-shadow: 1px 1px 1px #dfe1e1,
+              2px 2px 1px #f0f3f3;
+}
+.form-block input {
+  display: block;
+  padding: 8px 12px;
+  width: 100%;
+  color: #999d9d;
+  font: italic 12px Arial;
+  background: url(../img/bg.png) no-repeat;
+  border: 1px solid #cfdede;
+}
+.form-block input.email {
+  margin: 10px 0 13px;  
+}
+.form-block input.password {
+  margin: 12px 0 14px;
+}
+.form-block input.password-repeat {
+  margin: 12px 0 13px;
+}
+.form-block label {
+  color: #333;
+  font: bold 12px Arial;
+}
+.form-block label span {
+  color: #01b3b3;
+}
+.form-block button {
+  margin-top: 21px;
+  width: 100%;
+  height: 45px;
+  font: bold 16px Arial;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #01bebe;
+  border: 1px solid #07bbbb;
+  border-radius: 3px;
+}
