@@ -27,3 +27,5 @@
 
 Модуль 4. [Урок № 12](https://nadiaoryshchych.github.io/) - Хостинг от GitHub
 
+Модуль 5. [Урок № 13](https://nadiaoryshchych.github.io/lesson_13/) - Адаптивная верстка
+
