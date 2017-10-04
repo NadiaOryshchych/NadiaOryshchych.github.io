@@ -33,3 +33,4 @@
 
 Модуль 5. [Урок № 14](https://nadiaoryshchych.github.io/lesson_14/) - Подключение шрифтов
 
+Модуль 5. [Практика. Часть 2](https://nadiaoryshchych.github.io/practice_part_2/) - Подключение шрифтов. Верстка первого экрана
