@@ -29,3 +29,5 @@
 
 Модуль 5. [Урок № 13](https://nadiaoryshchych.github.io/lesson_13/) - Адаптивная верстка
 
+Модуль 5. [Практика. Часть 1](https://nadiaoryshchych.github.io/practice_part_1/) - Подготовка файлов. Верстка шапки сайта.
+
