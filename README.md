@@ -44,3 +44,5 @@
 Модуль 5. [Практика. Часть 4](https://nadiaoryshchych.github.io/practice_part_4/) - Верстка блока с преимуществами. Слайдер
 
 Модуль 5. [Урок № 17](https://nadiaoryshchych.github.io/lesson_17/) - Всплывающие окна
+
+Модуль 5. [Практика. Часть 5](https://nadiaoryshchych.github.io/practice_part_5/) - Верстка всплывающих окон на сайте
