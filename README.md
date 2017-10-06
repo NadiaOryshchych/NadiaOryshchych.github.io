@@ -38,3 +38,5 @@
 Модуль 5. [Урок № 15](https://nadiaoryshchych.github.io/lesson_15/) - Псевдоклассы и псевдоэлементы
 
 Модуль 5. [Практика. Часть 3](https://nadiaoryshchych.github.io/practice_part_3/) - Эффекты при наведении и адаптив первого экрана
+
+Модуль 5. [Урок № 16](https://nadiaoryshchych.github.io/lesson_16/) - Слайдер на сайте
