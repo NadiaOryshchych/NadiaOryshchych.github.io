@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+body { 
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.jpg) 0 0 no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+.button {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  margin: 10px;
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #2f1d31;
+  border: none;
+  outline: none;
+}
+.button:hover,
+.button:focus,
+.button:active,
+.button:visited {
+  border: none;
+  background-color: #5d2d62;
+}
+.m-wind {
+  font-family: 'Pangolin', cursive;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 10px;
+  border: 7px solid #261828;
+}
+.m-wind-content {
+  background-color: #342036;
+}
+.m-wind-header {
+  background-color: #392c38;
+}
+.m-wind-header h4 {
+  font-size: 35px;
+  text-align: center;
+}
+.m-wind-close {
+  color: #d1a9d5;
+}
+.m-wind-body {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.m-wind-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.button-yes,
+.button-no {
+  height: 130%;
+  color: #fff;
+  background-color: #512156;
+  border-color: #000;
+}
+

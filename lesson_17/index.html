@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Всплывающие окна</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    
+    <div class="container">
+      <!-- <a class="link" href="#modal-delete" data-toggle="modal">Ссылка на модальное окно</a> -->
+      <button class="btn btn-success button" data-toggle="modal" data-target="#modal-delete">Удалить файл</button>
+    </div>
+
+  <!-- Модальное окно от bootstrap -->
+    <div class="modal fade" id="modal-delete">
+    <!-- Само (белое) модальное окно -->
+      <div class="modal-dialog m-wind">
+      <!-- Содержимое модального окна -->
+        <div class="modal-content m-wind-content">
+        <!-- Шапка модального окна -->
+          <div class="modal-header m-wind-header">
+          <!-- Кнопка "закрыть" -->
+            <button type="button" class="close m-wind-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <!-- Заголовок -->
+            <h4 class="modal-title m-wind-title">Задумайтесь!</h4>
+          </div>
+
+        <!-- Тело модального окна -->
+          <div class="modal-body m-wind-body">
+            <p>Вы действительно  хотите удалить файл?</p>
+          </div>
+
+        <!-- Подвал модального окна -->
+          <div class="modal-footer m-wind-footer">
+            <button type="button" class="btn btn-primary button-yes">Да, конечно!</button>
+            <button type="button" class="btn btn-default button-no" data-dismiss="modal">Неееееет!</button>
+          </div>
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+
+  </body>
+</html>
