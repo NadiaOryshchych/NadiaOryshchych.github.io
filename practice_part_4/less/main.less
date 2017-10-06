@@ -1,0 +1,136 @@
+.fz(@fz) {
+  font-size: @fz;
+}
+.ff() {
+  font-family:'museo_reg', sans-serif;
+}
+.size(@width; @height) {
+  width: @width;
+  height: @height;
+}
+.mar-bottom(@m-b) {
+  margin-bottom: @m-b;
+}
+.transition(@trans) {
+  -webkit-transition: (@trans);
+  -moz-transition: (@trans);
+  -ms-transitiosn: (@trans);
+  transition: (@trans);
+}
+@bg-color: #5ba2a9;
+@text-color: #1b1b1b;
+@input-base-color: #454545;
+@input-color: #515151;
+@border-color: #d0d0d0;
+@form-color: #fff;
+@bg-form-color: #488389;
+.title() {
+  content: '';
+  display: inline-block;
+  .size(1.5rem, 0.1rem);
+  .mar-bottom(15px);
+  background-color: @bg-color;
+}
+html {
+  .fz(10px);
+}
+body {
+  .ff();
+}
+section {
+  padding: 4rem 0 8rem;
+}
+a:hover,a:focus,a:active {
+  text-decoration: none;
+}
+button:focus,input:focus,a:focus,textarea:focus {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+.feedback-forms-all {
+  padding: 6rem 0 9rem 0;
+}
+.section-title {
+  .mar-bottom(6rem);
+  text-align: center;
+  text-transform: uppercase;
+  .ff();
+  .fz(3rem);
+  color: @text-color;
+  .upper-icon-wrapper::before {
+    .title();
+  }
+  .upper-icon-wrapper::after {
+    .title();
+  }
+  .upper-icon-wrapper .upper-icon {
+    .mar-bottom(1.5rem);
+    .size(2rem, 2rem);
+  }
+}
+.feedback-form {
+  &-statement {
+    padding: 6rem 0 0;
+  }
+  &-title {
+    .mar-bottom(6rem);
+    text-align: center;
+    h3 {
+      .mar-bottom(1.2rem);
+      .ff();
+      .fz(2.5rem);
+      color: @text-color;
+    }
+    p {
+      .fz(1.8rem);
+    }
+  }
+  &-input {
+    position: relative;
+    width: 100%;
+    padding: 1.4rem 4.5rem 1.4rem 1.4rem;
+    border: 2px solid @border-color;
+    opacity: .5;
+    color: @input-base-color;
+    .transition(0.3s);
+    &::-webkit-input-placeholder,
+    &::-moz-placeholder,
+    &:-moz-placeholder,
+    &:-ms-input-placeholder {
+      color: @input-color;
+      .fz(1.5rem);
+    }
+    &:hover, &:focus {
+      opacity: 1;
+    }
+  }
+  .input-user {
+    background: url(../img/shared/feedback/person-icon.svg) right 1.5rem center no-repeat;
+    background-size: 2rem;
+  }
+  .input-phone {
+    background: url(../img/shared/feedback/telephone-icon.svg) right 1.5rem center no-repeat;
+    background-size: 2rem;
+  }
+  &-btn {
+    min-width: 100%;
+    padding: 1.2rem 0;
+    background-color: @bg-color;
+    text-transform: uppercase;
+    border: none;
+    color: @form-color;
+    .fz(1.8rem);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    &:hover {
+      background-color: @bg-form-color;
+      border-radius: 10px;
+    }
+  }
+  .title-feedback,
+  .description-feedback {
+    display: block;
+  }
+}
