@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Табы на сайте</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="tabs-demo">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs tabs-header">
+          <li class="active tabs-header-items">
+            <a class="tabs-header-items-link" href="#enter" data-toggle="tab">Вход</a>
+          </li>
+          <li class="tabs-header-items">
+            <a class="tabs-header-items-link" href="#registration" data-toggle="tab">Регистрация</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="enter">
+            <div class="form-tabs-wrap">
+              <form class="form-tabs" action="#">
+                <input class="form-tabs-input" type="text" name="login" value="Ваше имя">
+                <input class="form-tabs-input" type="password" name="password" value="Пароль">
+                <a class="form-tabs-link" href="#">Забыли пароль?</a>
+                <input class="form-tabs-check" type="checkbox" id="remind_me">
+                <label class="form-tabs-label" for="remind_me">Напомнить мне</label>
+                <button class="form-tabs-btn"><a href="#">Войти</a></button>
+              </form>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="registration">
+            <div class="form-tabs-wrap">
+              <form class="form-tabs" action="#">
+                <input class="form-tabs-input" type="text" name="login" value="Ваше имя">
+                <input class="form-tabs-input" type="password" name="password" value="Пароль">
+                <input class="form-tabs-input" type="password" name="password" value="Пароль">
+                <a class="form-tabs-link registration-link" href="#">Зарегистрировать</a>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+        <a class="to-main-link to-main-of-tabs" href="index.html">Вернуться на главную</a>
+    </div>
+  
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
