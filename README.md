@@ -46,3 +46,5 @@
 Модуль 5. [Урок № 17](https://nadiaoryshchych.github.io/lesson_17/) - Всплывающие окна
 
 Модуль 5. [Практика. Часть 5](https://nadiaoryshchych.github.io/practice_part_5/) - Верстка всплывающих окон на сайте
+
+Модуль 5. [Урок № 18](https://nadiaoryshchych.github.io/lesson_18/) - Табы и аккордеон на сайте
