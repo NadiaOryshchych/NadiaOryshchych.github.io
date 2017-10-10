@@ -50,3 +50,5 @@
 Модуль 5. [Урок № 18](https://nadiaoryshchych.github.io/lesson_18/) - Табы и аккордеон на сайте
 
 Модуль 5. [Практика. Часть 6](https://nadiaoryshchych.github.io/ractice_part_6/) - Верстка блока с ценами
+
+Модуль 6. [Урок № 19](https://nadiaoryshchych.github.io/lesson_19/) - Анимация на CSS3
