@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('MyriadPro-Regular.eot');
+  src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('MyriadPro-Regular.woff2') format('woff2'), url('MyriadPro-Regular.woff') format('woff'), url('MyriadPro-Regular.ttf') format('truetype'), url('MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Общие стили */
+body {
+  background-image: url(../img/bg-page.jpg);
+  background-size: cover;
+}
+.to-main-link,
+.to-main-link:hover,
+.to-main-link:focus,
+.to-main-link:visited {
+  display: block;
+  margin: 20px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'MyriadPro-Regular', sans-serif;
+  outline: none;
+  text-decoration: none;
+}
+.to-main-of-tabs,
+.to-main-of-tabs:hover,
+.to-main-of-tabs:focus,
+.to-main-of-tabs:visited {
+  color: #fff;
+}
+.to-main-of-collapse,
+.to-main-of-collapse:hover,
+.to-main-of-collapse:focus,
+.to-main-of-collapse:visited {
+  color: #000;
+  text-align: left;
+}
+/* Стили главной страницы */
+.blocks {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.tabs-page,
+.collapse-page {
+  margin: 25% auto;
+  width: 50%;
+  height: 100px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #a52a2a;
+  border: 2px solid #cd5c5c;
+  display: table;
+}
+.tabs-page a,
+.collapse-page a {
+  color: #fff;
+  font-size: 24px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+/* Стили страницы с табами */
+.tabs-demo {
+  margin: 5% auto;
+  padding: 20px 88px 34px;
+  width: 800px;
+  height: 500px;
+  font-family: 'MyriadPro-Regular', sans-serif;
+  background-image: url(../img/bg-tabs.png);
+  background-size: cover;
+}
+.tabs-header {
+  margin-left: 27px;
+}
+.tabs-header-items {
+  margin-right: 10px;
+  padding: 0 14px;
+  height: 35px;
+  overflow: hidden;
+  font-size: 24px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px 5px 0 0;
+}
+.tabs-header-items-link {
+  padding: 0 !important;
+  color: #000;
+}
+li.active.tabs-header-items {
+  background-color: #0499c7;
+  overflow: visible;
+}
+li.active.tabs-header-items a,
+li.active.tabs-header-items a:hover,
+li.active.tabs-header-items a:focus {
+  color: #fff;
+  text-shadow: 1px 1px 0 #6c838e;
+  border: none;
+  background-color: #0499c7;
+}
+.form-tabs {
+  padding: 40px 43px 0;
+  width: 581px;
+  height: 365px;
+  background-color: #000000;
+  border: 1px solid #7dd7f4;
+  border-radius: 5px;
+}
+.form-tabs-wrap {
+  position: relative;
+  background-color: #0499c7;
+  border: 22px solid #0499c7;
+  -webkit-box-shadow: 0 0 0 1px #047ca0;
+          box-shadow: 0 0 0 1px #047ca0;
+  border-radius: 5px;
+}
+.form-tabs-input {
+  display: block;
+  margin-top: 29px;
+  padding: 13px 24px;
+  width: 100%;
+  outline: none;
+  color: #ffffff;
+  font-size: 24px;
+  background-image: url(../img/bg-tabs-input.png);
+  background-size: cover;
+  border: none;
+  border-radius: 9px;
+}
+.form-tabs-link {
+  display: block;
+  margin: 20px;
+  color: #c51f03;
+  font-size: 15px;
+  text-decoration: none;
+  /* &:visited {
+			color: #510701;
+			text-decoration: none;
+		} */
+}
+.form-tabs-link:hover,
+.form-tabs-link:active {
+  color: #c51f03;
+  text-decoration: none;
+}
+.form-tabs-check[type="checkbox"] {
+  border: none;
+  margin-left: 20px;
+}
+.form-tabs-label {
+  margin-top: 30px;
+  color: #6f6d6d;
+  font-size: 15px;
+}
+.form-tabs .registration-link {
+  text-align: right;
+}
+.form-tabs-btn {
+  position: absolute;
+  bottom: 15px;
+  right: -42px;
+  width: 137px;
+  height: 52px;
+  background: transparent url(../img/bg-tabs-btn1.png) 0 0 no-repeat;
+  border: none;
+}
+.form-tabs-btn a,
+.form-tabs-btn a:hover,
+.form-tabs-btn a:focus,
+.form-tabs-btn a:visited {
+  display: block;
+  margin-top: -9px;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+@-webkit-keyframes valuein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes valuein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+input {
+  opacity: 0;
+  -webkit-animation-name: valuein;
+          animation-name: valuein;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+#valueColor {
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+/* Стили страницы с аккордеоном */
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.clean {
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background: #fafcfe url(../img/bg-collapse.png) 0 0 no-repeat;
+  background-size: cover;
+}
+.clean-heading {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.clean-subheading {
+  margin-top: 18px;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.clean-bottom-line {
+  margin: 18px auto 30px;
+  width: 124px;
+  height: 1px;
+  background-color: #cbcdce;
+}
+.clean-collapse {
+  margin: 0 auto;
+  width: 865px;
+}
+.clean-collapse-item {
+  padding: 0;
+  width: 849px;
+  border-radius: 0 0 8px 8px !important;
+}
+.clean-collapse-item-head {
+  margin: 0 -8px;
+  padding: 0;
+  width: 865px;
+}
+.clean-collapse-item-heading {
+  padding: 15px 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 23.5px;
+  color: #ffffff;
+  background-color: #0bbaf0;
+}
+.clean-collapse-item-heading a {
+  text-decoration: none;
+}
+.clean-collapse-item-body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  border: 4px solid #dcdcdc;
+  border-top: none !important;
+  border-radius: 0 0 7px 7px;
+}
