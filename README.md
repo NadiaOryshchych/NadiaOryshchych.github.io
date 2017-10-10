@@ -52,3 +52,5 @@
 Модуль 5. [Практика. Часть 6](https://nadiaoryshchych.github.io/ractice_part_6/) - Верстка блока с ценами
 
 Модуль 6. [Урок № 19](https://nadiaoryshchych.github.io/lesson_19/) - Анимация на CSS3
+
+Модуль 6. [Практика. Часть 7](https://nadiaoryshchych.github.io/practice_part_7/) - Верстка блока с отзывами
