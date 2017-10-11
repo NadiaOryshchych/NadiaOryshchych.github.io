@@ -54,3 +54,7 @@
 Модуль 6. [Урок № 19](https://nadiaoryshchych.github.io/lesson_19/) - Анимация на CSS3
 
 Модуль 6. [Практика. Часть 7](https://nadiaoryshchych.github.io/practice_part_7/) - Верстка блока с отзывами
+
+Модуль 6. [Урок № 20](https://nadiaoryshchych.github.io/lesson_20/) - Видео-фон на сайте
+
+
