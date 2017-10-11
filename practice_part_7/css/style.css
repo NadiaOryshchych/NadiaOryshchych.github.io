@@ -1,0 +1,608 @@
+/* Fonts family */
+@font-face {
+  font-family: 'ProximaNova_reg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/* Colors */
+/* Basic setting */
+html {
+  font-size: 10px;
+}
+/* почему размер шрифта задаеться html, а семейство - body? */
+body {
+  font-family: 'ProximaNova_reg', sans-serif;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+.button {
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  background-color: #f7ae01;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fec741), to(#d99901));
+  background-image: linear-gradient(to bottom, #fec741, #d99901);
+}
+/* Typography */
+section {
+  padding: 10rem 0;
+}
+.section-header {
+  margin: 0 0 13rem;
+  text-align: center;
+}
+.section-header_light {
+  color: #ffffff;
+}
+.section-header h2 {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 3.6rem;
+}
+.section-header p {
+  font-size: 1.8rem;
+}
+/* main */
+.main {
+  padding: 3rem 0 4rem;
+  background: #ffffff url(../img/main-bg.jpg) center center no-repeat;
+  background-size: cover;
+  /*Подзаголовок*/
+  /*Зеленый ярлик*/
+  /*Оплата по факту*/
+  /*Главная форма*/
+}
+.main-content {
+  margin-top: 10rem;
+  /*Главный заголовок*/
+}
+.main-content h1 {
+  margin-top: 0;
+  margin-bottom: 3.7rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 4rem;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+.main-subtitle {
+  margin-bottom: 4.7rem;
+  font-size: 2.4rem;
+}
+.main span {
+  display: inline-block;
+  padding: 3rem 4rem 2rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  background-color: #48bc14;
+  text-align: center;
+  /*Цифра "300" рублей*/
+}
+.main span strong {
+  font-size: 3rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.main span:hover {
+  background-color: #51d316;
+}
+.main-trigger {
+  display: block;
+  margin-top: 3.3rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+.main-form {
+  padding: 4.6rem 5.1rem;
+  background-color: #ffffff;
+  text-align: center;
+  /*Заголовок формы*/
+  /*Поле для ввода*/
+  /*Подписи к полям*/
+  /*Кнопка в форме*/
+  /*Подпись под кнопкой*/
+}
+.main-form-header {
+  margin-top: 0;
+  margin-bottom: 4rem;
+  font-size: 1.8rem;
+}
+.main-form-header strong {
+  font-size: 1.9rem;
+}
+.main-form-input {
+  display: block;
+  margin: 2.7rem 0;
+  padding: 1.7rem;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 0.5rem;
+}
+.main-form-label {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+}
+.main-form-btn {
+  display: block;
+  margin: -0.4rem 0 1.5rem;
+  width: 100%;
+  height: 6.5rem;
+  font-size: 1.6rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.main-form small {
+  display: block;
+}
+/* Подпись сноски со звёздочкой */
+.note {
+  margin: 3.4rem 3rem 0;
+  font-size: 1.2rem;
+}
+.header {
+  height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.wrap-block .text-of-sm {
+  display: block;
+}
+.wrap-block .text-of-xs {
+  display: none;
+}
+.phone-block {
+  text-align: right;
+}
+.phone-link {
+  display: inline-block;
+  /* margin-right: -4rem; */
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 2rem;
+  height: 7rem;
+  line-height: 7rem;
+  color: #1a1820;
+}
+/* Оформление секции с преимуществами */
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  margin-bottom: 3.5rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 2rem;
+}
+.features-block p {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.5rem;
+}
+.features-img {
+  height: 7rem;
+  margin-bottom: 6rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+  width: 1.3rem;
+  height: 2rem;
+  -webkit-transform: scaleY(-50%);
+          transform: scaleY(-50%);
+  border: none;
+}
+.prev {
+  left: 2rem;
+  top: 2.4rem;
+  background: url(../img/left-arrow.svg) center no-repeat;
+  background-size: 100%;
+  opacity: 0.6;
+}
+.prev:hover {
+  opacity: 1;
+}
+.next {
+  right: 2rem;
+  top: 2.4rem;
+  background: url(../img/right-arrow.svg) center no-repeat;
+  background-size: 100%;
+  opacity: 0.6;
+}
+.next:hover {
+  opacity: 1;
+}
+/* Оформление секции с ценами */
+.price {
+  background: #48bc14 url(../img/prices/prices-bg.jpg) center repeat;
+  /* Карточки с тарифами */
+}
+.price-header-btn {
+  margin-top: 2rem;
+}
+.price-button {
+  text-align: right;
+}
+.price-button-copy-xs {
+  display: none;
+}
+.price-block {
+  padding: 1rem 2.5rem 4rem;
+  min-height: 50rem;
+  text-align: center;
+  background-color: #ffffff;
+  -webkit-box-shadow: 7px 12px 21px 0 rgba(0, 0, 0, 0.17);
+          box-shadow: 7px 12px 21px 0 rgba(0, 0, 0, 0.17);
+}
+.price-block h4 {
+  margin: 3.5rem auto;
+  font-size: 1.9rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.price-block img {
+  display: inline-block;
+  margin-bottom: 3rem;
+  width: 100%;
+  max-width: 30rem;
+}
+.price-tag {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 1.9rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.price-list {
+  min-height: 15rem;
+}
+.price-list,
+.price-list-xs-collapse {
+  padding: 0;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  list-style: none;
+}
+.price-list li::before,
+.price-list-xs-collapse li::before {
+  content: "";
+  display: inline-block;
+  width: 1.2rem;
+  height: 0.9rem;
+  margin-right: 1rem;
+  background: url(../img/prices/price-check.svg) no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.price-list-xs,
+.price-list-xs-collapse-xs {
+  display: none;
+  margin-bottom: 2.5rem;
+}
+.price-list-xs a,
+.price-list-xs-collapse-xs a,
+.price-list-xs a:hover,
+.price-list-xs-collapse-xs a:hover,
+.price-list-xs a:focus,
+.price-list-xs-collapse-xs a:focus,
+.price-list-xs a:visited,
+.price-list-xs-collapse-xs a:visited {
+  color: #006b00;
+  font-family: 'ProximaNova_reg', sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  border-bottom: 2px solid #bfdabf;
+}
+.price-list-xs-body,
+.price-list-xs-collapse-xs-body {
+  background: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.price-wrap {
+  display: none;
+}
+/* Секция с отзывами */
+/* При позиции 755 не по центру слайдер, что делать */
+.feedback {
+  background: url(../img/feedback/feedback-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.feedback-slider {
+  margin: 2rem;
+  padding: 5.6rem 6rem;
+  background-color: #ffffff;
+  -webkit-box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
+          box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
+}
+.feedback-slider_photo {
+  text-align: center;
+}
+.feedback-slider_description {
+  margin-left: 1rem;
+  font-size: 1.6rem;
+  line-height: 2.2;
+}
+.feedback-slider .media {
+  margin-top: 5rem;
+  margin-left: 1rem;
+}
+.feedback-slider .media span {
+  font-size: 1.4rem;
+}
+.feedback-slider .media-heading {
+  font-size: 1.6rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.feedback-slider-btn {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 5rem;
+  height: 6rem;
+  background-color: #48bc14;
+  border: none;
+}
+.feedback-slider-btn img {
+  width: 35%;
+}
+.feedback-prev-btn {
+  left: -5rem;
+}
+.feedback-next-btn {
+  right: -5rem;
+}
+.feedback-text {
+  position: relative;
+  margin-top: 2.5rem;
+  padding: 2rem 2rem 1rem;
+  font-size: 1.6rem;
+  line-height: 1.1;
+  font-style: italic;
+  border: 2px solid #48bc14;
+}
+.feedback-text::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -2rem;
+  left: 4rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffffff;
+  border: 2px solid #48bc14;
+  border-bottom: none;
+  border-top-right-radius: 100px;
+}
+/* Оформление модальных окон */
+/* Окно от кнопки "получить консультацию" */
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.popup-content {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 3rem 5rem;
+  width: 36rem;
+  background-color: #ffffff;
+}
+.popup-close {
+  position: absolute;
+  top: -2rem;
+  right: -3rem;
+  width: 3rem;
+  color: #ffffff;
+  font-size: 4rem;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+}
+.popup-content {
+  text-align: center;
+}
+.popup-header {
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+/* @media */
+@media (max-width: 1199px) {
+  .price-wrap {
+    display: inline-block;
+  }
+  .feedback-slider p {
+    line-height: 1.3;
+  }
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .note {
+    color: white;
+    text-align: right;
+  }
+  .price-button {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .price-header-btn {
+    margin-top: 0;
+  }
+  .price-block {
+    margin-top: 2rem;
+  }
+  .section-header_light {
+    margin-bottom: 0;
+  }
+  .feedback-slider_description {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    margin-top: 5rem;
+    background: #ffffff url(../img/main-bg-mobile.jpg) repeat;
+    background-size: cover;
+  }
+  .phone-block {
+    margin-top: -16rem;
+  }
+  .wrap {
+    margin-top: -16rem;
+  }
+  .header {
+    text-align: center;
+  }
+  .note {
+    color: black;
+    text-align: center;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
+  }
+}
+@media (max-width: 560px) {
+  .main h1 {
+    font-size: 3.5rem;
+  }
+  .feedback-slider {
+    padding: 2rem;
+  }
+  .feedback-slider-btn {
+    top: 48%;
+    width: 4rem;
+    height: 5rem;
+  }
+  .feedback-slider_description {
+    margin-top: 6rem;
+  }
+  .feedback-prev-btn {
+    left: -1rem;
+  }
+  .feedback-next-btn {
+    right: -1rem;
+  }
+}
+@media (max-width: 480px) {
+  .main {
+    margin-top: 5rem;
+  }
+  .main h1 {
+    font-size: 2.2rem;
+  }
+  .phone-link {
+    font-size: 1.4rem;
+  }
+  .wrap .text-of-sm {
+    display: none;
+  }
+  .wrap .text-of-xs {
+    display: block;
+  }
+  section {
+    padding: 4rem 0;
+  }
+  .section-header {
+    margin: 0 0 4rem;
+  }
+  .price-button {
+    display: none;
+  }
+  .price-button-copy-xs {
+    display: block;
+  }
+  .price-header-btn-copy-xs {
+    margin-top: 4rem;
+    width: 100%;
+    height: 65px;
+  }
+  .price-list {
+    display: none;
+  }
+  .price-list-xs {
+    display: block;
+  }
+  .feedback .container {
+    padding: 0;
+  }
+  .feedback-slider {
+    margin: 0;
+    padding: 1rem;
+  }
+  .feedback-slider-btn {
+    top: 48%;
+    width: 4rem;
+    height: 5rem;
+  }
+  .feedback-slider_description {
+    margin-top: 6rem;
+  }
+  .feedback-prev-btn {
+    left: -1rem;
+  }
+  .feedback-next-btn {
+    right: -1rem;
+  }
+}
+/* екраны от 320px, 480px, 767px, 991px, 1199px, 1500px */
