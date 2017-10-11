@@ -57,4 +57,4 @@
 
 Модуль 6. [Урок № 20](https://nadiaoryshchych.github.io/lesson_20/) - Видео-фон на сайте
 
-
+Модуль 6. [Практика. Часть 8](https://nadiaoryshchych.github.io/practice_part_8/) - Доверстали блок с отзывами
