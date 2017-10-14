@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Starter Template for Bootstrap</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
+    </script>
+	</head>
+
+	<body>
+		<div id="my-geo" class="my-map"></div>
+
+		<div class="section-map">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-1">
+						<div class="contacts">
+							<h2>Контакты</h2>
+							<p>г. Москва, <br>Варшавское шоссе, дом 16,  корпус 1, офис №8</p>
+							<p>200 от м. Театральная</p>
+							<p>+7 (499) 409-87-25</p>
+							<p><a href="#">info@vashsite.ru</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-md-offset-1">
+						<div class="logo">
+							<div class="media">
+	              <div class="media-left">
+	                <img src="img/logo.png" alt="логотип">
+	              </div>
+	              <div class="media-body">
+	              	<h3>Технологии <br>Пожарной <br>Безопасности</h3>
+	              </div>       
+            	</div> <!-- media -->
+						</div>
+					</div>
+					<div class="col-md-3 col-md-offset-1">
+						<div class="sertification">
+							<p>Сертификация пожарной безопасности <br>Работаем по России и странам СНГ</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-md-offset-1">
+						<div class="footer-contact">
+							<p class="tel">+7 (499) 409-87-25</p>
+							<p class="address">г. Москва, Варшавское шоссе, <br>дом 16, корпус 1, офис №8</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+	    ymaps.ready(function () {
+	        var myMap = new ymaps.Map('my-geo', {
+	                center: [55.862518, 37.429848],
+	                zoom: 16
+	            }, {
+	                searchControlProvider: 'yandex#search'
+	            }),
+
+	            // Создаём макет содержимого.
+	            MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+	                '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+	            ),
+
+	            myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+	                hintContent: 'мы находитмся сдесь',
+	                balloonContent: 'по этому адресу'
+	            }, {
+	                // Опции.
+	                // Необходимо указать данный тип макета.
+	                iconLayout: 'default#image',
+	                // Своё изображение иконки метки.
+	                iconImageHref: 'img/label.png',
+	                // Размеры метки.
+	                iconImageSize: [42, 36],
+	                // Смещение левого верхнего угла иконки относительно
+	                // её "ножки" (точки привязки).
+	                iconImageOffset: [-5, -38]
+	            });
+
+	        myMap.geoObjects
+	            .add(myPlacemark)
+	            .add(myPlacemarkWithContent);
+	    });
+		</script>
+		
+	</body>
+</html>
