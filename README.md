@@ -64,3 +64,5 @@
 Модуль 6. [Практика. Часть 9](https://nadiaoryshchych.github.io/practice_part_9/) - Верстаем схему работы и все включено
 
 Модуль 6. [Урок № 22](https://nadiaoryshchych.github.io/lesson_22/) - Гео-карты для сайта
+
+Модуль 6. [Практика. Часть 10](https://nadiaoryshchych.github.io/practice_part_10/) - Верстаем блок "Развеиваем сомнения"
