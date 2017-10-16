@@ -66,3 +66,5 @@
 Модуль 6. [Урок № 22](https://nadiaoryshchych.github.io/lesson_22/) - Гео-карты для сайта
 
 Модуль 6. [Практика. Часть 10](https://nadiaoryshchych.github.io/practice_part_10/) - Верстаем блок "Развеиваем сомнения"
+
+Модуль 6. [Практика. Часть 11](https://nadiaoryshchych.github.io/practice_part_11) - Верстаем блок "Материалы"
