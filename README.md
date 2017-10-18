@@ -68,3 +68,5 @@
 Модуль 6. [Практика. Часть 10](https://nadiaoryshchych.github.io/practice_part_10/) - Верстаем блок "Развеиваем сомнения"
 
 Модуль 6. [Практика. Часть 11](https://nadiaoryshchych.github.io/practice_part_11) - Верстаем блок "Материалы"
+
+Модуль 6. [Практика. Часть 12](https://nadiaoryshchych.github.io/practice_part_12) - Верстаем блок "Экскурсия" и "Доп. услуги"
